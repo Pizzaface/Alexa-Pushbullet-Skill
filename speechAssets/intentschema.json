@@ -1,0 +1,35 @@
+{
+  "intents": [
+    {
+      "intent": "sendtoPushBulletIntent",
+      "slots": [
+        {
+          "name": "query",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "number",
+          "type": "AMAZON.LITERAL"
+        }
+      ]
+    },
+  	{
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
+
+
+
