@@ -7,6 +7,7 @@ Uses the Pushbullet API to allow SMS sending through the Amazon Alexa Service.
   
 ###Support for Contacts
 To Add Contacts, use the case statement located in skill.js
+
 `case "john smith":
                     numberSlot = "1234567890"
                     break `
